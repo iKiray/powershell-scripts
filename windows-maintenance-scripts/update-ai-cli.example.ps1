@@ -1,7 +1,7 @@
 #script is for updating my AI CLI tools
 $ErrorActionPreference = "Stop" #for any powershell error(s), use once at top level generally.
 
-Write-Host "Running script..." #powershell message
+Write-Host "=== Running script..." #powershell message
 
 #claude code
 Write-Host "Updating Claude Code..."
@@ -21,7 +21,7 @@ if ($LASTEXITCODE -ne 0) {
     exit $LASTEXITCODE
 }
 
-Write-Host "Script Finished."
+Write-Host "Script Finished. ==="
 
 # $LASTEXITCODE for external programs generally.
 # the try/catch method otherwise for powershell cmdlets/native commands.
