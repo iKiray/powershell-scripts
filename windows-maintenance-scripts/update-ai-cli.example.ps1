@@ -1,4 +1,4 @@
-#this script is for updating my AI CLI tools
+#script is for updating my AI CLI tools
 $ErrorActionPreference = "Stop" #for any powershell error(s), use once at top level generally.
 
 Write-Host "Running script..." #powershell message
