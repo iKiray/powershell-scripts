@@ -16,6 +16,7 @@ Use this as the single entry point when you just want to "update everything."
 ### `update-ai-cli.example.ps1`
 Updates AI coding CLI tools:
 
+- OpenCode (`npm i -g opencode-ai` — reinstalls the latest version globally via npm, since OpenCode has no built-in `update` command)
 - Claude Code (`claude update`)
 - Codex CLI (`codex update`)
 
